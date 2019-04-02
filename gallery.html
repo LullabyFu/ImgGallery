@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img{
+            box-shadow: 3px 3px 2px #888888;
+            width:400px;
+        }
+    </style>
+</head>
+<script type="text/javascript" src="script/showpic.js"></script>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+        <li>
+            <a href="img/cat.jpg" onclick="showPic(this);
+            return false;">cat</a>
+        </li>
+        <li>
+            <a href="img/friend.jpg">firend</a>
+        </li>
+        <li>
+            <a href="img/river.jpg">river</a>
+        </li>
+        <img id="placeholder" src="img/first.png" alt="image gallery">
+    </ul>
+</body>
+</html>
